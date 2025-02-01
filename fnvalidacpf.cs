@@ -34,7 +34,7 @@ namespace httpValidaCpf
                 return new BadRequestObjectResult("CPF inválido.");
             }
 
-            var responseMessage = "CPF válido e limpo junto a Receita Federal.";
+            var responseMessage = "CPF Válido e limpo junto a Receita Federal.";
 
             return new OkObjectResult(responseMessage);
         }
